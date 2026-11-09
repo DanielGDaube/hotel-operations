@@ -21,5 +21,5 @@ public class Room {
 
     public boolean isDirty() {return dirty;}
 
-    public boolean isAvailable() {return occupied && !dirty;}
+    public boolean isAvailable() {return !occupied && !dirty;}
 }
